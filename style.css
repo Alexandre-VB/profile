@@ -114,12 +114,12 @@ img {
   top: 0;
   bottom: 0;
   background-color: white ;
-
 }
 
 #sidebar a {
-display: block;
-line-height: 50px;
+  display: block;
+  line-height: 50px;
+  text-align: center;
 }
 
 #page-content {
@@ -127,5 +127,6 @@ line-height: 50px;
 }
 
 #sidebar > a > i {
-margin: 5px;
+  margin: 10px;
+  text-align: center;
 }
