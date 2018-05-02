@@ -48,7 +48,7 @@ img {
 
 }
 
-div {
+#page-content div {
   width: 600px;   /* This sets the width */
   margin: 15px auto;
   background-color: rgb(450, 450, 450);
@@ -105,4 +105,27 @@ div {
 
 .inline-list li a {
   line-height: 30px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 140px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: white ;
+
+}
+
+#sidebar a {
+display: block;
+line-height: 50px;
+}
+
+#page-content {
+  margin-left: 140px;
+}
+
+#sidebar > a > i {
+margin: 5px;
 }
